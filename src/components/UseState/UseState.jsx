@@ -7,7 +7,11 @@ import "./UseState.css";
 //   } else nextTheme("light");
 // };
 
-//Better pra ctice regarding current theme and next theme?
+// const ToggleHandler = (currentTheme, nextTheme) => {
+//   nextTheme(currentTheme === "light" ? "dark" : "light");
+// };
+
+//Better practice regarding current theme and next theme?
 const ToggleHandler = (currentTheme, nextTheme) => {
   if (currentTheme === "light") {
     nextTheme("dark");
